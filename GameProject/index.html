@@ -1,45 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<link rel="icon" href="">
 
 <head>
-	<meta charset="utf-8">
-	<title>Jumper</title>
-	<script type="text/javascript" src="main.js"></script>
-	<style type="text/css">
-		body {
-			margin: 28px;
-		}
-
-		#container {
-			width: 1000px;
-		}
-
-		#cvs {
-			border: 2px solid black;
-		}
-
-		#title {
-			display: inline;
-			font: 3em "Georgia"
-		}
-
-		#mute {
-			float: right;
-			margin-top: 40px;
-		}
-	</style>
+    <title>ed-ge, the Education Game Engine</title>
 </head>
 
 <body>
-	<div id="container">
-		<div id="head">
-			<p id="title">Jumper</p>
-			<p id="mute">Mute<input type="checkbox"></p>
-		</div>
-		<canvas id="cvs" width="1000" height="800"></canvas>
-	</div>
-
+    <canvas id="canv" width="640px" height="480px"></canvas>
+    <script src="game.js" type="module" ></script>
 </body>
 
 </html>
+
